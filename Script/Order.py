@@ -7,6 +7,9 @@ def LimparCampoQuantidade():
 def DigitarQuantidade(quantidade):
   Aliases.Orders.OrderForm.Group.Quantity.Keys(quantidade)
   
+def DigitarNomeCliente(cliente):
+  Aliases.Orders.OrderForm.Group.Customer.Keys(cliente)
+  
 def ValidarPreco(preco):
   aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Price, "wText", cmpEqual, preco)
   

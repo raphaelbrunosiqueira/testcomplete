@@ -108,6 +108,15 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="Customer" Key="{069B8201-7C48-446A-B649-73DAECDD3E67}" ParallelWalk="True">
+												<Image FileName="754453280" Left="117" Top="196" Right="465" Bottom="212" />
+												<TypeInfo Item0="{B9B630B0-0B4F-49BD-9E56-362922AB5BCA}" />
+												<Properties>
+													<Property Name="WinFormsControlName">
+														<Value PropertyType="0" Value="Customer" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="ButtonCancel" Key="{68027D78-B086-42E9-A402-78D9DB92F7AA}" ParallelWalk="True">
@@ -148,6 +157,7 @@
 					</Child>
 					<Child Name="ProductNames" Owner="{D446C34E-AFDA-4D91-BDCD-8C0A6200C4C3}" />
 					<Child Name="Date" Owner="{0C3401F2-B674-4D8E-B164-3DA096048DBA}" />
+					<Child Name="Customer" Owner="{069B8201-7C48-446A-B649-73DAECDD3E67}" />
 				</Child>
 				<Child Name="ButtonCancel" Owner="{68027D78-B086-42E9-A402-78D9DB92F7AA}" />
 			</Child>

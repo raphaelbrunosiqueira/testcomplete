@@ -19,20 +19,20 @@
 ]>
 <Nodes version="1">
 	<Node name="root">
-		<Prp name="root logdata name" type="S" value="Script Test Log [App\AbrirOrders]"/>
-		<Prp name="test count" type="I" value="0"/>
-		<Prp name="warning count" type="I" value="0"/>
-		<Prp name="warning test count" type="I" value="0"/>
-		<Prp name="test type" type="S" value="AbrirOrders"/>
-		<Prp name="stop time" type="D" value="43340.6601178588"/>
-		<Prp name="error test count" type="I" value="0"/>
-		<Prp name="success test count" type="I" value="0"/>
-		<Prp name="computer name" type="S" value="PC-PRO015"/>
-		<Prp name="status" type="I" value="0"/>
-		<Prp name="start time" type="D" value="43340.660110544"/>
+		<Prp name="stop time" type="D" value="43340.7389037269"/>
+		<Prp name="completed" type="B" value="0"/>
 		<Prp name="user name" type="S" value="Pro15"/>
-		<Prp name="error count" type="I" value="0"/>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="test type" type="S" value="CalcularValorDoDescontoTotalEProduto"/>
+		<Prp name="warning count" type="I" value="0"/>
+		<Prp name="error count" type="I" value="2"/>
+		<Prp name="root logdata name" type="S" value="Script Test Log [OrdersTest\CalcularValorDoDescontoTotalEProduto]"/>
+		<Prp name="warning test count" type="I" value="0"/>
+		<Prp name="computer name" type="S" value="PC-PRO015"/>
+		<Prp name="error test count" type="I" value="0"/>
 		<Prp name="root file name" type="S" value="RootLogData.dat"/>
-		<Prp name="completed" type="B" value="-1"/>
+		<Prp name="test count" type="I" value="0"/>
+		<Prp name="success test count" type="I" value="0"/>
+		<Prp name="start time" type="D" value="43340.7387881134"/>
 	</Node>
 </Nodes>

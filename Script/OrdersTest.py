@@ -9,10 +9,11 @@ def CalcularValorDoDescontoTotalEProduto():
   #Acesso ao formulário de orders
   Principal.AcessarFormularioDeOrders()
   
-  #Preenchemos o produto e quantidade
+  #Preenchemos o produto, quantidade e cliente
   Order.EscolherProduto('ScreenSaver')
   Order.LimparCampoQuantidade()
   Order.DigitarQuantidade(10)
+  Order.DigitarNomeCliente('Raphael')
   
   #Validar os valores contidos nos campos
   Order.ValidarPreco('$20')
