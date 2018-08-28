@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{8BE36617-A859-41FE-9FDC-3609177D66CA}">
+	<children>
+		<child name="CursoAutomacaoDesktopTestComplete2" key="{FD45CC66-7DAF-41ED-B935-800726D2944E}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="CursoAutomacaoDesktopTestComplete2.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{1F2F423C-5257-48B2-9A0A-9351CD78071B}">
+		<children>
+			<testItem key="{FD45CC66-7DAF-41ED-B935-800726D2944E}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D967C78E-F903-4234-8D31-5E9D10045E46}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{5E364FAD-8ED1-4FC3-B50A-94B5EF52C4AD}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />
+</Root>

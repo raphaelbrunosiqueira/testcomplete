@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="OrdersTest" key="{EACDA928-44E3-45BD-9768-91038FCB2083}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="OrdersTest.py" />
+		</child>
+		<child name="App" key="{51B40DA3-F413-440C-A6C6-3DC896DCA413}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="App.py" />
+		</child>
+		<child name="Principal" key="{061FAB06-9565-4977-9646-B1615AA25C11}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Principal.py" />
+		</child>
+		<child name="Order" key="{5C11EFBF-4475-45B9-B49E-1BC91D722BB7}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Order.py" />
+		</child>
+	</children>
+	<folders>
+		<folder caption="Módulos" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{51B40DA3-F413-440C-A6C6-3DC896DCA413}" />
+				<ref key="{061FAB06-9565-4977-9646-B1615AA25C11}" />
+				<ref key="{5C11EFBF-4475-45B9-B49E-1BC91D722BB7}" />
+			</references>
+		</folder>
+		<folder caption="Testes" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{EACDA928-44E3-45BD-9768-91038FCB2083}" />
+			</references>
+		</folder>
+	</folders>
+</Root>
