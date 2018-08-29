@@ -30,3 +30,12 @@ def CalcularValorDoDescontoTotalEProduto():
   
   #Clique no botão Fechar do Orders 
   App.FecharOrders()
+  
+def ValidaPrecoMymoney():
+  App.AbrirOrders()
+  Principal.AcessarFormularioDeOrders()
+  Order.EscolherProduto('MyMoney')
+  Order.ValidarPreco('$100')
+  Order.ClicarCancelar() 
+  App.FecharOrders()
+

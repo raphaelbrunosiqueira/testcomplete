@@ -23,29 +23,29 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43340.7387881134"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{4032E27F-73E9-49EB-8C75-B14E15D3F4B1}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [OrdersTest\CalcularValorDoDescontoTotalEProduto]"/>
-				<Prp name="relpath" type="S" value="28_08_2018_17_43_51_293\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43340.7428378125"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{D15829C0-8932-44DD-AA9C-26B62F3B25E2}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Order\DigitarNomeCliente]"/>
-				<Prp name="relpath" type="S" value="28_08_2018_17_49_41_187\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
 				<Prp name="datetime" type="D" value="43340.7541662963"/>
 				<Prp name="description" type="S" value=""/>
 				<Prp name="key" type="S" value="{41C359BA-478B-4CAC-8B55-42C37056CE90}"/>
 				<Prp name="nameofroot" type="S" value="Script Test Log [OrdersTest\CalcularValorDoDescontoTotalEProduto]"/>
 				<Prp name="relpath" type="S" value="28_08_2018_18_05_59_968\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43341.3280858449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{419202A3-3320-4FCE-8139-3E4607C61D69}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [OrdersTest\ValidaPrecoMymoney]"/>
+				<Prp name="relpath" type="S" value="29_08_2018_07_52_26_617\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43341.3310286458"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5EA4DDD2-F36E-4249-B12E-8BB587E7D2FF}"/>
+				<Prp name="nameofroot" type="S" value="Validar preço MyMoney"/>
+				<Prp name="relpath" type="S" value="29_08_2018_07_56_40_875\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

@@ -23,7 +23,21 @@
 	</folders>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{0850EC63-30BC-4D34-850E-97AE8E562E19}">
-		<children />
+		<children>
+			<testItem name="Formulário de Orders" key="{D21A84FB-0BF9-43E8-A962-05CCC5DE2B14}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="Validar preço, desconto e total dos produtos" key="{0722126A-09C5-4046-9638-E1688A7C3BAE}" group="False" enabled="True" testMoniker="{EACDA928-44E3-45BD-9768-91038FCB2083}CalcularValorDoDescontoTotalEProduto" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Validar preço MyMoney" key="{481B499E-F0A1-4A58-8307-3A8A220589AA}" group="False" enabled="True" testMoniker="{EACDA928-44E3-45BD-9768-91038FCB2083}ValidaPrecoMymoney" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{16058A6A-CE26-4109-81F3-85C80D5EB823}">
 		<data Version="3" />
@@ -430,7 +444,7 @@
 			</data>
 		</setting>
 		<setting name="{C371F52C-2F81-459B-8A40-380AAA4FB590}" type="1" value="True" />
-		<setting name="{EF65967B-5D67-41D0-9E90-1E07D7ECE759}" type="6" rowIndex="9" colIndex="0">
+		<setting name="{EF65967B-5D67-41D0-9E90-1E07D7ECE759}" type="6" rowIndex="13" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -445,6 +459,10 @@
 				<row val0="NativeQtObject" />
 				<row val0="NativeUIAObject" />
 				<row val0="NativeMSAA" />
+				<row val0="NativeSlObject" />
+				<row val0="NativeWebObject" />
+				<row val0="NativeChromeObject" />
+				<row val0="NativeFirefoxObject" />
 			</data>
 		</setting>
 		<setting name="KeyPressingDelay" type="2" value="0" />

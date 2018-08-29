@@ -13,7 +13,7 @@ def CalcularValorDoDescontoTotalEProduto():
   Order.EscolherProduto('ScreenSaver')
   Order.LimparCampoQuantidade()
   Order.DigitarQuantidade(10)
-  Order.DigitarNomeCliente()
+  Order.DigitarNomeCliente('Raphael')
   
   #Validar os valores contidos nos campos
   Order.ValidarPreco('$20')
@@ -30,3 +30,12 @@ def CalcularValorDoDescontoTotalEProduto():
   
   #Clique no botão Fechar do Orders 
   App.FecharOrders()
+  
+def ValidaPrecoMymoney():
+  App.AbrirOrders()
+  Principal.AcessarFormularioDeOrders()
+  Order.EscolherProduto('ScreenSaver')
+  Order.ValidarPreco('$100')
+  Order.ClicarCancelar() 
+  App.FecharOrders()
+
