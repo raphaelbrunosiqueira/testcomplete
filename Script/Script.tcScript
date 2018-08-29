@@ -13,6 +13,9 @@
 		<child name="Order" key="{5C11EFBF-4475-45B9-B49E-1BC91D722BB7}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Order.py" />
 		</child>
+		<child name="GeradorDeDados" key="{78A54D7A-BFCF-4838-AACB-09785C15EF1B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="GeradorDeDados.py" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="Módulos" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -25,6 +28,11 @@
 		<folder caption="Testes" description="A logical folder that is used to organize project items and elements." moniker="">
 			<references>
 				<ref key="{EACDA928-44E3-45BD-9768-91038FCB2083}" />
+			</references>
+		</folder>
+		<folder caption="Util" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{78A54D7A-BFCF-4838-AACB-09785C15EF1B}" />
 			</references>
 		</folder>
 	</folders>

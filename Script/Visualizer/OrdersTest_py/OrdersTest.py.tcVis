@@ -2,7 +2,7 @@
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{EACDA928-44E3-45BD-9768-91038FCB2083}">
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="43340.110162037" objectName="Aliases.Orders.MainForm" objectLeft="0" objectTop="0" objectRight="760" objectBottom="510" clickPointX="-921" clickPointY="-209" imageFileName="tcvi1402610972964.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="28" kind="0" dateTime="43340.112962963" objectName="Aliases.Orders.OrderForm.ButtonCancel" objectLeft="503" objectTop="552" objectRight="593" objectBottom="582" clickPointX="572" clickPointY="572" imageFileName="tcvi14268187729625.png" storageFileName="" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="31" kind="0" dateTime="43340.1129861111" objectName="Aliases.Orders.MainForm" objectLeft="0" objectTop="0" objectRight="760" objectBottom="510" clickPointX="-1" clickPointY="-1" imageFileName="tcvi14270062729627.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="43" kind="0" dateTime="43340.112962963" objectName="Aliases.Orders.OrderForm.ButtonCancel" objectLeft="503" objectTop="552" objectRight="593" objectBottom="582" clickPointX="572" clickPointY="572" imageFileName="tcvi14268187729625.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="44" kind="0" dateTime="43340.1129861111" objectName="Aliases.Orders.MainForm" objectLeft="0" objectTop="0" objectRight="760" objectBottom="510" clickPointX="-1" clickPointY="-1" imageFileName="tcvi14270062729627.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

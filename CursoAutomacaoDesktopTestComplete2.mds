@@ -13,6 +13,9 @@
 		<child name="Script" key="{1CC6C9A5-0364-41E5-9B16-0FA62214E5D5}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script">
 			<data path="Script\Script.tcScript" />
 		</child>
+		<child name="ImageRepository" key="{551A8E15-22A0-4A5B-8990-F90F11296117}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="">
+			<data path="ImageRepository\ImageRepository.tcIR" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="Advanced" description="A logical folder that is used to organize project items and elements." moniker="{69583268-92F3-49FA-B573-C831F5ABC27B}">
@@ -24,9 +27,22 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{0850EC63-30BC-4D34-850E-97AE8E562E19}">
 		<children>
+			<testItem name="Inicialização" key="{C3F299BF-4BD3-418D-89F6-72A7910317A3}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="Gerador de datas dinâmicas" key="{449867B5-1BCA-4DBE-AA9C-2CB58FF368EE}" group="False" enabled="True" testMoniker="{78A54D7A-BFCF-4838-AACB-09785C15EF1B}GerarDatas" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 			<testItem name="Formulário de Orders" key="{D21A84FB-0BF9-43E8-A962-05CCC5DE2B14}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 				<testParameters />
 				<children>
+					<testItem name="Clicar no icone new order" key="{BC7FA582-B533-4877-A3F0-D531311272C0}" group="False" enabled="True" testMoniker="{EACDA928-44E3-45BD-9768-91038FCB2083}ClicaIconeNewOrder" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
 					<testItem name="Validar preço, desconto e total dos produtos" key="{0722126A-09C5-4046-9638-E1688A7C3BAE}" group="False" enabled="True" testMoniker="{EACDA928-44E3-45BD-9768-91038FCB2083}CalcularValorDoDescontoTotalEProduto" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
@@ -40,7 +56,21 @@
 		</children>
 	</testItems>
 	<variables key="{16058A6A-CE26-4109-81F3-85C80D5EB823}">
-		<data Version="3" />
+		<data Version="3">
+			<Items>
+				<Variable Name="dataAtual" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="dadosDeTeste" Type="{4AD4881B-176C-4C96-8288-FBBB7E3D1FE3}" Local="False">
+					<DefValue RowCount="3" ColumnCount="5">
+						<Columns ColumnName0="Produto" ColumnName1="Quantidade" ColumnName2="PrecoEsperado" ColumnName3="DescontoEsperado" ColumnName4="TotalEsperado" />
+						<Row No="0" Cell0="530063007200650065006E0053006100760065007200" Cell1="31003000" Cell2="240032003000" Cell3="310030002500" Cell4="310038003000" />
+						<Row No="1" Cell0="460061006D0069006C00790041006C00620075006D00" Cell1="31003000" Cell2="240038003000" Cell3="310035002500" Cell4="360038003000" />
+						<Row No="2" Cell0="4D0079004D006F006E0065007900" Cell1="31003500" Cell2="2400310030003000" Cell3="38002500" Cell4="3100330038003000" />
+					</DefValue>
+				</Variable>
+			</Items>
+		</data>
 	</variables>
 	<settings key="{0E06AD1F-A32D-4075-8085-C1C4DC5D9205}">
 		<settingsVersion value="12.50" />

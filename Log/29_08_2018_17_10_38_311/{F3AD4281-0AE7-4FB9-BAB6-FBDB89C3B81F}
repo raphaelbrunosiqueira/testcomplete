@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43341.7157538657"/>
+				<Prp name="name" type="S" value="Clicar no icone new order"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43341.7157243171"/>
+				<Prp name="details" type="S" value="{96F722A4-BA33-4AAE-A16A-FAD5ACA687D7}"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43341.7158362153"/>
+				<Prp name="name" type="S" value="Validar preço MyMoney"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43341.7157934722"/>
+				<Prp name="details" type="S" value="{C8F57C65-D989-4A63-897D-F3251E4986CC}"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43341.7157933565"/>
+				<Prp name="name" type="S" value="Validar preço, desconto e total dos produtos"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="43341.7157539815"/>
+				<Prp name="details" type="S" value="{90CF541C-7F2A-4831-94F2-D555D42CE2B0}"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="0"/>
+	</Node>
+</Nodes>

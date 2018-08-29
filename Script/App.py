@@ -2,4 +2,5 @@
   TestedApps.Orders.Run()
 
 def FecharOrders():
-  Aliases.Orders.MainForm.Close()
+  #Aliases.Orders.MainForm.Close()
+  TestedApps.Orders.Terminate()

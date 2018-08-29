@@ -9,33 +9,50 @@ def CalcularValorDoDescontoTotalEProduto():
   #Acesso ao formulário de orders
   Principal.AcessarFormularioDeOrders()
   
-  #Preenchemos o produto, quantidade e cliente
-  Order.EscolherProduto('ScreenSaver')
-  Order.LimparCampoQuantidade()
-  Order.DigitarQuantidade(10)
-  Order.DigitarNomeCliente('Raphael')
-  
-  #Validar os valores contidos nos campos
-  Order.ValidarPreco('$20')
-  Order.ClickCampoDesconto()
-  Order.ValidarDesconto('10')
-  Order.ValidarTotal('180')
-  
-  #Digitar a data
-  #Order.LimparCampoData()
-  Order.DigitarDataOrder('01202018')
-  
-  #Clicar no botao cancelar
-  Order.ClicarCancelar()
-  
-  #Clique no botão Fechar do Orders 
+#  for item in [Project.Variables.dadosDeTeste.RowCount]:
+#    item = 0 
+#    Order.EscolherProduto(Project.Variables.dadosDeTeste.Produto[item])
+#    Order.LimparCampoQuantidade()
+#    Order.DigitarQuantidade(Project.Variables.dadosDeTeste.Quantidade[item])
+#    Order.DigitarNomeCliente('Raphael')
+#    Order.DigitarNomeRua('Frei Matheus')
+#    Order.PreencherCartao('999999999999')
+#    Order.SelecionarMastercard()
+#    Order.DigitarNomeCidade('Brusque')s
+#    Order.ValidarPreco(Project.Variables.dadosDeTeste.PrecoEsperado[item])
+#    Order.ClickCampoDesconto()
+#    Order.ValidarDesconto(Project.Variables.dadosDeTeste.DescontoEsperado[item])
+#    Order.ValidarTotal(Project.Variables.dadosDeTeste.TotalEsperado[item])
+
+  ArquivoCSV = DDT.CSVDriver('D:\\TestCompleteProjetos\\testcomplete\\Dados_de_teste.csv')
+  while not ArquivoCSV.EOF :
+    Order.EscolherProduto(ArquivoCSV.Value['produto'])
+    Order.LimparCampoQuantidade()
+    Order.DigitarQuantidade(ArquivoCSV.Value['quantidade'])
+    Order.DigitarNomeCliente('Raphael')
+    Order.DigitarNomeRua('Frei Matheus')
+    Order.PreencherCartao('999999999999')
+    Order.SelecionarMastercard()
+    Order.DigitarNomeCidade('Brusque')
+    Order.ValidarPreco(ArquivoCSV.Value['precoesperado'])
+    Order.ClickCampoDesconto()
+    Order.ValidarDesconto(ArquivoCSV.Value['descontoesperado'])
+    Order.ValidarTotal(ArquivoCSV.Value['totalesperado'])
+
+  Order.DigitarDataOrder(Project.Variables.dataAtual)
+  Order.ClicarCancelar() 
   App.FecharOrders()
   
 def ValidaPrecoMymoney():
   App.AbrirOrders()
   Principal.AcessarFormularioDeOrders()
-  Order.EscolherProduto('ScreenSaver')
+  Order.EscolherProduto('MyMoney')
   Order.ValidarPreco('$100')
   Order.ClicarCancelar() 
+  App.FecharOrders()
+  
+def ClicaIconeNewOrder():
+  App.AbrirOrders()
+  Order.ClicarIcone()
   App.FecharOrders()
 

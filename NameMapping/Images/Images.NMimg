@@ -2,5 +2,7 @@
 <Root>
 	<Images>
 		<Child1 File="2335375.png" RefCount="2" Cookie="754453280" />
+		<Child2 File="2531484.png" RefCount="5" Cookie="-939537916" />
+		<Child3 File="2723296.png" RefCount="1" Cookie="-835306779" />
 	</Images>
 </Root>

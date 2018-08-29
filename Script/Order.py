@@ -9,6 +9,21 @@ def DigitarQuantidade(quantidade):
   
 def DigitarNomeCliente(cliente):
   Aliases.Orders.OrderForm.Group.Customer.Keys(cliente)
+
+def DigitarNomeRua(rua):
+  Aliases.Orders.OrderForm.Group.Street.Keys(rua)
+  
+def ClicarIcone():
+  ImageRepository.Imagens.IconeNewOrder.Click()
+  
+def PreencherCartao(numero):
+  Aliases.Orders.OrderForm.Group.CardNo.Keys(numero)
+  
+def DigitarNomeCidade(cidade):
+  Aliases.Orders.wndOrder.WindowsForms10Window8app033c0d9d.Cidade.SetText(cidade)
+  
+def SelecionarMastercard():
+  Aliases.Orders.OrderForm.Group.MasterCard.Click()
   
 def ValidarPreco(preco):
   aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Price, "wText", cmpEqual, preco)
